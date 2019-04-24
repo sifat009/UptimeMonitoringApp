@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <base href="{global.baseUrl}">
+
+    <!-- Meta tags -->
+    <title>{head.title} | {global.appName}</title>
+    <meta name="description" content="{head.description}">
+    <link type="image/x-icon" rel="icon" href="favicon.ico">
+    <script type="text/javascript" charset="utf-8" src="public/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/app.css">
+
+</head>
+<body class="{body.class}">
+    <!-- Page wrapper -->
+    <div class="wrapper">
+
+        <!-- Header -->
+        <div class="header">
+            <a href="/" class="logo">
+                <img src="public/logo.png" alt="">
+            </a>
+            <ul class="menu">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a class="loggedOut" href="/account/create">Signup</a>
+                </li>
+                <li>
+                    <a class="loggedOut" href="/session/create">Login</a>
+                </li>
+                <li>
+                    <a class="loggedIn" href="/checks/all">Dashboard</a>
+                </li>
+                <li>
+                    <a class="loggedIn"  href="/account/edit">Account Settings</a>
+                </li>
+                <li>
+                    <a class="loggedIn"  href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Page specific content -->
+        <div class="content">
+
